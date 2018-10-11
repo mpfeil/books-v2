@@ -1,5 +1,5 @@
 # Expander {#head}
-<div class="description"></div>
+<div class="description">The Expander is used to add up to four additional Sensors to your senseBox</div>
 
 <div class="line">
     <br>
