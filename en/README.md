@@ -2,15 +2,14 @@
 
 # openSenseMap {#head}
 
-Die openSenseMap (OSeM) ist eine Webplattform, auf welcher diverse standortbezogene Sensordaten hochgeladen und visualisiert werden können.
-Auf der Plattform lassen sich Stationen registrieren, welche die Daten eines oder mehrerer Sensoren übertragen.
+The openSenseMap (oSeM) is a web platform which provides upload, visualisation and analysis functionalities of location-specific sensordata.
+_Stations_ may be registered on the platform, which host one or more _Sensors_ on a specific location. Data up- & download is done via the restful [API](https://github.com/sensebox/OpenSenseMap-API).
 
-Neben einer Zeitreihenvisualisierung der Daten, ist es auch möglich diese nach verschiedenen Kriterien zu Filtern und räumliche Interpolationen zu errechnen.
+Besides timeseries visualisation for each phenomenen it´s also possible to filter by various parameters, do spatial interpolation or download data with bounding box.
 
-Sämtliche Sensordaten stehen unter der [Public Domain Dedication and License 1.0](http://opendatacommons.org/licenses/pddl/summary/) zum Download zur Verfügung, und können frei verwendet werden.
+All sensor data is available for download under the [Public Domain Dedication and License 1.0](http://opendatacommons.org/licenses/pddl/summary/).
 
-Sowohl die openSenseMap als auch die zugehörige API ist Open Source Software.
-Quellcode und Issuetracker sind hier zu finden:
+openSenseMap and it´s API is open source software. Sourcecode and issuetracker are located here:
 
-* [openSenseMap](https://github.com/sensebox/OpenSenseMap)
-* [openSenseMap API](https://github.com/sensebox/OpenSenseMap-API)
+- [openSenseMap](https://github.com/sensebox/OpenSenseMap)
+- [openSenseMap API](https://github.com/sensebox/OpenSenseMap-API)

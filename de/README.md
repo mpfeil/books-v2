@@ -12,5 +12,5 @@ Sämtliche Sensordaten stehen unter der [Public Domain Dedication and License 1.
 Sowohl die openSenseMap als auch die zugehörige API ist Open Source Software.
 Quellcode und Issuetracker sind hier zu finden:
 
-* [openSenseMap](https://github.com/sensebox/OpenSenseMap)
-* [openSenseMap API](https://github.com/sensebox/OpenSenseMap-API)
+- [openSenseMap](https://github.com/sensebox/OpenSenseMap)
+- [openSenseMap API](https://github.com/sensebox/OpenSenseMap-API)
