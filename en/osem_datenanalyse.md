@@ -1,17 +1,16 @@
-# Datenanalyse {#head}
-
+# Data analysis {#head}
 
 ## Interpolation
-Im Reiter *Interpolation* lassen sich die Daten mehrerer senseBoxen zu einem Phänomen räumlich interpolieren.
 
-Dies ist nützlich um die räumlichen Unterschiede eines Phänomens auf der Karte sichtbar zu machen, oder um ungefähre Werte in Regionen ableiten zu können, in welchen keine Sensoren vorhanden sind.
+In the tab _Interpolation_ the data of several senseBoxes can be spatially interpolated to a phenomenon.
+
+This is useful to make the spatial differences of a phenomenon visible on the map, or to derive approximate values in regions where no sensors are present.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_interpolation.jpg" center width="700px" />
 
-Es wird das Interpolationsverfahren **IDW** (*Inverse Distance Weighting*) verwendet, welches als Parameter einen *power*-Wert hat. Dieser ist der Exponent, mit welchem die Distanz eines Messwerts zu einem Ort der Interpoliert wird gewichtet wird.
-Ein niedriger Wert für *power* bezieht also Werte aus größeren Distanzen ähnlich stark wie aus der Nähe ein, während ein hoher *power*-Wert insbesondere Werte aus unmittelbarer Entfernung betrachtet.
+The interpolation method **IDW** (_Inverse Distance Weighting_) is used, which has a _power_ value as parameter. This is the exponent with which the distance of a measured value to a location to be interpolated is weighted.
+A low value for _power_ thus includes values from greater distances as strongly as from close range, while a high value for _power_ especially considers values from immediate distance.
 
-Nach Einstellung der Parameter wird die Interpolation auf unserem Server berechnet.
-Wenn die Kalkulation abgeschlossen ist, wird das Ergebnis als Heatmap in der Karte angezeigt.
-Die Zellgröße der Kalkulation kann auch eingestellt werden um detailliertere Ergebnisse zu erhalten; hierbei ist aber zu beachten dass die Berechnungszeit bei kleineren Zellen sehr stark ansteigt.
-
+After setting the parameters, the interpolation is calculated on our server.
+When the calculation is complete, the result is displayed as a heat map on the map.
+The cell size of the calculation can also be set to get more detailed results, but please note that the calculation time for smaller cells increases considerably.
