@@ -1,25 +1,28 @@
-# Boxen verwalten {#head}
-Jeder registrierte Nutzer kann beliebig viele Boxen auf der openSenseMap verwalten.
-Wenn die Einstellungen einer Box nachträglich geändert oder der Sketch heruntergeladen werden sollen ist dies über das **Dashboard** möglich.
-Dieses ist in der Menuleiste unter dem User-Icon verfuegbar, sobald ein Nutzer eingeloggt ist:
+# Manage boxes {#head}
+
+Each registered user can manage any number of boxes on the openSenseMap.
+If you want to change the settings of a box later or download the sketch, you can do this via the **Dashboard**.
+This is available in the menu bar under the user icon as soon as a user is logged in:
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_dashboard_btn.png" center width="150px" />
 
-Im Dashboard können...
+In the dashboard you can...
 
-- [neue Boxen registriert werden](osem_registrierung.md),
-- bestehende Boxen angepasst oder entfernt werden,
-- Sketches zur Programmierung einer Box heruntergeladen werden.
+- [register new senseBoxes](osem_registrierung.md),
+- edit existing senseBoxes or remove them,
+- download Arduino Sketches for each senseBox
 
-## senseBox anpassen
-Durch Klick auf den *ÄNDERN*-Button einer Box im Dashboard können beliebige Eigenschaften dieser Box nachträglich verändert werden.
-Nachdem in einem der Abschnitte Änderungen vorgenommen wurden, werden diese durch Klick auf das Diskettensymbol oben rechts übernommen.
+## Edit existing senseBox
 
-> ***Hinweis:*** *Wenn die Sensorkonfiguration geändert wurde, muss der Programmcode der senseBox in den allermeisten Fällen ebenfalls aktualisiert werden. Dieser ist unter dem Reiter *Skript* zu finden, um ihn in die Arduino IDE zu kopieren. Falls die WiFi-Version der senseBox verwendet wird, muss erneut die SSID und das WiFi Passwort im Sketch ersetzt werden!*
+Click on the _Edit_-Button of a senseBox in the dashboard. After that you are able to change different kind of settings.
+After changes have been made in one of the sections, they are accepted by clicking on the disk symbol in the upper right corner.
 
-## senseBox löschen
-Falls eine senseBox nicht mehr verwendet wird, oder die Messungen dieser Box von der openSenseMap entfernt werden sollen, kann diese entfernt werden.
-Dazu muss im Bearbeitungsmodus (s.o.) im Reiter *Allgemein* unter dem Feld "senseBox löschen" der Wert `DELETE` eingetragen werden.
-Anschließend erscheint unter dem Feld ein Button, durch welchen die senseBox und ihre Messungen gelöscht werden.
+> **_Note:_** *If the sensor configuration has been changed, the program code of the senseBox must also be updated in most cases. This can be found under the *Script* tab to copy it to the Arduino IDE. If the WiFi version of senseBox is used, the SSID and WiFi password in the sketch must be replaced again!*
 
-> ***Achtung:*** *Hierdurch werden neben der senseBox alle hinterlegten Sensordaten unwiderruflich entfernt! Da die Messungen auch für eine Nachträgliche Datenauswertung wertvoll sein können, sollte abgewägt werden ob die senseBox gelöscht werden sollte.*
+## Delete a senseBox
+
+If a senseBox is no longer used, or the measurements of this box are to be removed from the openSenseMap, it can be removed.
+In the edit mode (see above) your current `PASSWORD` must be entered in the tab _General_ under the field "delete senseBox".
+Afterwards a button appears under the field, by which the senseBox and its measurements are deleted.
+
+> **_Attention:_** This removes the senseBox and all stored sensor data irrevocably! Since the measurements can also be valuable for a subsequent data evaluation, you should consider whether the senseBox should be deleted.
