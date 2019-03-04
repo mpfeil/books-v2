@@ -1,16 +1,13 @@
-## Diagramme erstellen {#head}
+## Create charts {#head}
 
-Um euch aus den heruntergeladenen Daten ein Diagramm mit Microsoft Excel zu erstellen, markiert ihr zunächst alle Daten, die mit in die Analyse einfließen sollen. 
+To create a chart with Microsoft Excel from the downloaded data, first select all the data you want to include in the analysis.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/excel.jpeg" align="center" width="900"/>
 
-Unter dem Reiter "Einfügen" klickt ihr nun am besten auf Empfohlene Diagramme und wählt euch den Diagrammtypen aus, der sich am besten für eure Analyse eignet. 
+Under the "Insert" tab, click on Recommended Diagrams and select the diagram type that best suits your analysis.
 
-
-Klickt nun auf ok und schon wird das Diagramm dargestellt. 
- 
+Now click on "ok" and the diagram will be displayed.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/excel1.jpeg" align="center" width="900"/>
 
-
-Ihr könnt nun noch im Anschluss euer Diagramm beschriften, einfach indem ihr ein Element (z.B. die Diagrammüberschrift) auswählt. 
+You can now label your diagram by simply selecting an element (e.g. the diagram heading).
