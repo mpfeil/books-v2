@@ -1,25 +1,26 @@
-# Registrierung auf der openSenseMap {#head}
-Um eine neue senseBox auf der openSenseMap zu registrieren, muss zunächst unter *Anmelden* ein Nutzer-Account erstellt werden.
-Anschließend ist unter dem User-Logo oben rechts das Dashboard zu finden, über welches senseBoxen hinzugefügt und [verwaltet](osem_manage-boxes.md) werden können.
+# Registration of a new senseBox {#head}
 
-Unter *Neue senseBox* kann nun eine neue senseBox registriert werden. Die folgenden Angaben sind notwendig:
+To register a new senseBox on openSenseMap, you need a user account. To get a new user account click on _Login_ and select _Sign up_.
+Afterwards you find the _Dashboard_ under the user logo. You can use the _Dashboard_ to create new senseBoxes and [manage](osem_manage-boxes.md) them.
 
-- **Name der senseBox**: z.B. der Standort
-- **Aufstellungsort**: dient der Filterung von Boxen
-- **Standort**: kann über die Karte ausgewählt werden
-- **Modell**: bestimmt die Sensorkonfiguration
+By clicking on _New senseBox_ the creation wizard will be openend and guide you through the registration process. The following specifications are required:
 
-Es gibt eine Vorauswahl für verschiedene Modelle.
-Falls eine nicht vorhandene Sensorkonfiguration vorliegt, können einzelne Sensoren unter *Manuelle Konfiguration* von Hand hinzugefügt werden.
-Wie dies im Detail funktioniert ist unter [Andere Plattformen](osem_custom_sensor.md) beschrieben.
+- **Name of your senseBox**: e.g. Phil´s box
+- **Exposure**: used for filtering
+- **Location**: can be set using the map
+- **Model**: determines the sensor configuration
 
-Nachdem die Registrierung abgeschlossen wurde, wird ein Arduino-Sketch angezeigt, welcher die angegebenen Sensoren ausliest und deren Daten regelmäßig zur openSenseMap überträgt.
-Um diesen auf die senseBox zu übertragen, wird die [Arduino IDE](https://www.arduino.cc/en/Main/Software) benötigt, eine exemplarische Installations-Anleitung für die *senseBox:home* ist [hier](https://home.books.sensebox.de/de/software_installation.html) zu finden.
+We offer different predefined models. Go and select it.
+If you don´t have a predefined sensor configuration, you can specify your own sensor configuration by selecting _Manual configuration_. How this is done in detail visit the [other platform](osem_custom_sensor.md) guide.
 
-## Erweiterte Konfiguration
-Es besteht die Möglichkeit neben der [HTTP REST API](osem_api.md) auch andere Schnittstellen zur Datenübertragung zu nutzen.
-Einstellungen hierfür müssen unter dem entsprechenden Reiter im Abschnitt *Erweitert* vorgenommen werden.
-Detaillierte Anleitungen dazu sind hier zu finden:
+After finishing the registration wizard, you get a Arduino Sketch which contains your selected sensor configuration and regularly reads the sensor values and transmit them to openSenseMap.
+To transfer the Arduino Sketch to your senseBox the [Arduino IDE](https://www.arduino.cc/en/Main/Software) is required.
+An exemplarly installation guideline for the _senseBox:home_ can be found [here](https://home.books.sensebox.de/de/software_installation.html)
+
+## Advanced configuration
+
+Besides the [HTTP REST API](osem_api.md) we also offer other interfaces for data transmisson. Settings can be found in the _Advanced_ section during the registration process or in the _Editing_ area for each senseBox.
+Detailed guidelines can be found here:
 
 - [MQTT](mqtt_client.md)
 - [TheThingsNetwork](ttn_integration.md)
